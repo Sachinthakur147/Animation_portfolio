@@ -1,0 +1,24 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"heading": {
+				"__TYPE__": "FieldContent",
+				"value": "satisfied",
+				"type": "Text"
+			},
+			"tech_name": {
+				"__TYPE__": "FieldContent",
+				"value": "even",
+				"type": "Text"
+			},
+			"tech_color": {
+				"__TYPE__": "FieldContent",
+				"value": "#33329e",
+				"type": "Color"
+			}
+		},
+		"items": []
+	}
+]

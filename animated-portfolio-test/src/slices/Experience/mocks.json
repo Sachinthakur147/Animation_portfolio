@@ -1,0 +1,40 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"heading": {
+				"__TYPE__": "FieldContent",
+				"value": "smell",
+				"type": "Text"
+			},
+			"title": {
+				"__TYPE__": "FieldContent",
+				"value": "nearby",
+				"type": "Text"
+			},
+			"time_period": {
+				"__TYPE__": "FieldContent",
+				"value": "music",
+				"type": "Text"
+			},
+			"workplace": {
+				"__TYPE__": "FieldContent",
+				"value": "mental",
+				"type": "Text"
+			},
+			"description": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Elit ipsum magna voluptate ullamco ex non anim non officia."
+						}
+					}
+				]
+			}
+		},
+		"items": []
+	}
+]
