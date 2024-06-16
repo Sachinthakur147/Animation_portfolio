@@ -140,12 +140,15 @@ export default function ContentList({
         onMouseLeave={onMouseLeave}
       >
         {items.map((post, index) => (
-          <li
-            key={index}
-            ref={(el) => (itemsRef.current[index] = el)}
-            onMouseEnter={() => onMouseEnter(index)}
-            className="list-item opacity-0"
-          >
+         
+              <li
+          key={index}
+          ref={(el) => {
+            itemsRef.current[index] = el;
+          }}
+          onMouseEnter={() => onMouseEnter(index)}
+          className="list-item opacity-0"
+        >
             <a
               href={`${urlPrefix}/${post.uid}`}
               className="flex flex-col justify-between border-t border-t-slate-100 py-10  text-slate-200 md:flex-row "
